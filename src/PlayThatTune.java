@@ -8,7 +8,7 @@ public class PlayThatTune {
         int result = chooser.showOpenDialog(null);
         if (result == JFileChooser.APPROVE_OPTION) {
             Scanner input = new Scanner(chooser.getSelectedFile());
-            Guitar g = new Guitar210();
+            Guitar g = new Guitar221();
             while (input.hasNextInt()) {
                 int pitch = input.nextInt();
                 double duration = input.nextDouble();
